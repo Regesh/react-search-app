@@ -1,0 +1,20 @@
+.error-message {color: red;}
+.loader .MuiCircularProgress-root {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 45px;
+    margin-top: 30px;
+}
+th.sortable {
+    cursor: pointer;
+}
+
+th .col-header-container {
+    display: grid;
+    grid-template-columns: 40px auto;
+}
+
+.MuiSvgIcon-root.inactive {
+    opacity: .3;
+}
